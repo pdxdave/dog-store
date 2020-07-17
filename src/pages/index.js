@@ -6,7 +6,6 @@ import SEO from "../components/seo"
 
 import Hero from '../components/GlobalComponents/Hero'
 import WhyPaws from '../components/HomePage/WhyPaws'
-import Footer from '../components/HomePage/Footer'
 
 
 const IndexPage = ({data}) => (
@@ -19,7 +18,6 @@ const IndexPage = ({data}) => (
     styleClass="default-background"
   />
   <WhyPaws />
-  <Footer />
   </Layout>
 )
 
