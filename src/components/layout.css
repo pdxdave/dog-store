@@ -13,12 +13,15 @@
   color: #CCCECF;
 }
 
-.default-background {
+.default-background, .about-background {
   height: 94.8vh;
   background-size: cover;
   background-position: center;
 }
-
+.about-background {
+  height: 80vh;
+  color: #f2f2f2;
+}
 .hero-title {
   padding-top: 130px;
   font-weight: 100;
