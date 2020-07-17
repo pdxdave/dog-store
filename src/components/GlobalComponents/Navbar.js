@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import {Link} from 'gatsby'
-import logo from '../../images/dog-paw.svg'
+import logo from '../../images/white_paw.svg'
 import {FaShoppingCart} from 'react-icons/fa'
 
 export default class Navbar extends Component {
@@ -36,11 +36,11 @@ export default class Navbar extends Component {
 
     render() {
         return (
-            <nav className="navbar navbar-expand-sm bg-light navbar-light">
+            <nav className="navbar navbar-expand-sm bg-dark navbar-dark">
                 {/* brand */}
                 <Link to="/" className="navbar-brand">
                     <img src={logo} alt="paws logo" className="paws-logo"/>
-                    <spa className="ml-3">Paws for Dogs</spa>
+                    <spa className="ml-3">Paws...for Dogs</spa>
                 </Link>
                 {/* toggle button */}
                 <button 
