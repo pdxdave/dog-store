@@ -28,7 +28,7 @@ const About = ({data}) => (
                         a vision to create a unique experience for both dog owners and their dogs.  Yes, we encourage 
                         you to bring in your dog(s) when you stop by! With a lot of hard work and your patronage, we 
                         believe we've succeded. For instance, Modern Dog magazine for the past ten years has awared 
-                        Paws...for dogs, the "two paws up" award for the best dog store and service provider in the state of Oregon.  We certainly appreciate the wards, but the real reard and measure of our 
+                        Paws...for dogs, the "two paws up" award for the best dog store and service provider in the state of Oregon.  We certainly appreciate the wards, but the real reward and measure of our 
                         success is your return visit.  We look forward to many more years of service.
                         </p>
                     </div>
