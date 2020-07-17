@@ -25,8 +25,19 @@
   font-size: 5rem;
 }
 
+.title-page {
+  margin-top: 70px;
+  font-weight: 100;
+  font-size: 4rem;
+}
+
 @media only screen and (max-width: 767px) {
   .hero-title {
+    padding-top: 70px;
+    font-weight: 100;
+    font-size: 2rem;
+  }
+  .title-page {
     padding-top: 70px;
     font-weight: 100;
     font-size: 2rem;

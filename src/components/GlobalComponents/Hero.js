@@ -1,7 +1,7 @@
 import React from 'react'
 import BackgroundImage from 'gatsby-background-image'
 
-export default function Hero({img, styleClass, title, children }) {
+export default function Hero({img, styleClass, title}) {
     return (
         <BackgroundImage 
             className={styleClass}

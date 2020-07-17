@@ -3,8 +3,9 @@ import {graphql} from 'gatsby'
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Hero from '../components/GlobalComponents/Hero'
 
+import Hero from '../components/GlobalComponents/Hero'
+import WhyPaws from '../components/HomePage/WhyPaws'
 
 
 const IndexPage = ({data}) => (
@@ -16,6 +17,7 @@ const IndexPage = ({data}) => (
     title="Wanna go to Paws...for dogs?"
     styleClass="default-background"
   />
+  <WhyPaws />
   </Layout>
 )
 
