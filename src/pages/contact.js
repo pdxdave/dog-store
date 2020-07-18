@@ -40,7 +40,7 @@ const IndexPage = ({data}) => (
                             <input 
                                 type="email"
                                 className="form-control"
-                                name="email"
+                                name="_replyto"
                                 id="email"
                                 placeholder="john@email.com"
                             />
@@ -58,7 +58,7 @@ const IndexPage = ({data}) => (
                             ></textarea>
                         </div>
                         {/* submit */}
-                        <button type="submit" className="btn btn-yellow btn-block text-capitalize mt-5" style={{border: "1px solid gray"}}>Submit</button>
+                        <button type="submit" className="btn btn-block text-capitalize mt-5" style={{border: "1px solid gray"}}>Submit</button>
                     </form>
                 </div>
             </div>
