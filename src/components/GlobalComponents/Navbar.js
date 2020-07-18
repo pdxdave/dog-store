@@ -24,6 +24,11 @@ export default class Navbar extends Component {
                 path: '/services',
                 desc: 'services'
             },
+            {
+                id: 4,
+                path: '/contact',
+                desc: 'contact'
+            },
         ]
 
     }

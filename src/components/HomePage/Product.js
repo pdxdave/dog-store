@@ -8,7 +8,7 @@ export default function Product({product}) {
                 <Img fluid={product.image.fluid}  className="card-img-top"/>
                 <div className="card-body">
                     <h6>{product.title}</h6>
-                    <h6>{product.price}</h6>
+                    <h6>${product.price}</h6>
                     <button className="btn btn-settings text-capitalize">
                         add to cart
                     </button>
