@@ -7,6 +7,7 @@ import SEO from "../components/seo"
 import Hero from '../components/GlobalComponents/Hero'
 import WhyPaws from '../components/HomePage/WhyPaws'
 import Menu from '../components/HomePage/Menu'
+import Products from '../components/HomePage/Products'
 
 
 const IndexPage = ({data}) => (
@@ -20,6 +21,7 @@ const IndexPage = ({data}) => (
     />
     <WhyPaws />
     <Menu items={data.menu}/>
+    <Products />
   </Layout>
 )
 

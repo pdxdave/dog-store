@@ -47,6 +47,10 @@
   color: #feeacd;
 }
 
+.menu {
+  background:#feeacd;
+}
+
 @media only screen and (max-width: 767px) {
   .hero-title {
     padding-top: 70px;
@@ -59,6 +63,3 @@
   }
 }
 
-.menu {
-  background:#feeacd;
-}
