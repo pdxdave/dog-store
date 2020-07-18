@@ -15,7 +15,7 @@ const IndexPage = ({data}) => (
     <Hero
       img={data.img.childImageSharp.fluid} 
       title="Contact"
-      styleClass="default-background"
+      styleClass="about-background"
     />
     <section className="contact py-5">
             <Title title="contact us" />
