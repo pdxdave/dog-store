@@ -52,7 +52,7 @@ export default class Menu extends Component {
                                             <button 
                                                 type="button"
                                                 onClick={() => {this.handleItems(category)}} 
-                                                className="btn text-capitalize m-3"
+                                                className="btn text-capitalize m-3 btn-settings"
                                                 key={index}>{category}
                                             </button>
                                         )

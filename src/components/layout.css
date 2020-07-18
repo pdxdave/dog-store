@@ -39,6 +39,14 @@
   color:  #CCCECF;
 }
 
+.btn-settings {
+  border: 1px solid #212529;
+}
+.btn-settings:hover {
+  background:#212529;
+  color: #feeacd;
+}
+
 @media only screen and (max-width: 767px) {
   .hero-title {
     padding-top: 70px;
