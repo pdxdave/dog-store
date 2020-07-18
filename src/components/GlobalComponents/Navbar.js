@@ -40,7 +40,7 @@ export default class Navbar extends Component {
                 {/* brand */}
                 <Link to="/" className="navbar-brand">
                     <img src={logo} alt="paws logo" className="paws-logo"/>
-                    <spa className="ml-3">Paws...for Dogs</spa>
+                    <span className="ml-3">Paws...for Dogs</span>
                 </Link>
                 {/* toggle button */}
                 <button 

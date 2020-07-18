@@ -6,18 +6,20 @@ import SEO from "../components/seo"
 
 import Hero from '../components/GlobalComponents/Hero'
 import WhyPaws from '../components/HomePage/WhyPaws'
+import Menu from '../components/HomePage/Menu'
 
 
 const IndexPage = ({data}) => (
 
   <Layout>
     <SEO title="Home" />
-  <Hero
-    img={data.img.childImageSharp.fluid} 
-    title="Wanna go to Paws...for dogs?"
-    styleClass="default-background"
-  />
-  <WhyPaws />
+    <Hero
+      img={data.img.childImageSharp.fluid} 
+      title="Wanna go to Paws...for dogs?"
+      styleClass="default-background"
+    />
+    <WhyPaws />
+    <Menu items={data.menu}/>
   </Layout>
 )
 
@@ -27,6 +29,24 @@ export const query = graphql `
     childImageSharp {
       fluid{
         ...GatsbyImageSharpFluid
+      }
+    }
+  }
+  menu:allContentfulDogItem{
+    edges {
+      node {
+        id
+        title
+        description{
+          description
+        }
+        price
+        category
+        image {
+          fixed(width: 60, height: 60){
+            ...GatsbyContentfulFixed
+          }
+        }
       }
     }
   }
