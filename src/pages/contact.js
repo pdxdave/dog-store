@@ -23,9 +23,9 @@ const Contact = ({data}) => (
                 <Title title="Contact"/>
                 <div className="row">
                     <div className="col-10 col-sm-8 mx-auto">
-                      <form action="http://formspree.io/dr.hoochie.love@hotmail.com" method="POST">
+                      <form action="https://formspree.io/dr.hoochie.love@hotmail.com" method="POST">
                         <div className="form-group">
-                              <label htmlFor="">Name</label>
+                              <label htmlFor="name">Name</label>
                               <input 
                                   type="text"
                                   className="form-control"
@@ -35,18 +35,18 @@ const Contact = ({data}) => (
                               />
                           </div>
                           <div className="form-group">
-                            <label htmlFor="">Email</label>
+                            <label htmlFor="email">Email</label>
                             <input 
                                 type="email"
                                 className="form-control"
-                                name="_replyto"
+                                name="email"
                                 id="email"
                                 placeholder="john@email.com"
                             />
                         </div>
 
                         <div className="form-group">
-                            <label htmlFor="">Description</label>
+                            <label htmlFor="description">Description</label>
                             <textarea
                                 type="text"
                                 className="form-control"
