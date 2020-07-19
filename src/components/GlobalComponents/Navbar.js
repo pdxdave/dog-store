@@ -47,8 +47,8 @@ export default class Navbar extends Component {
                 <Link to="/" className="navbar-brand">
                     <img src={logo} alt="paws logo" className="paws-logo"/>
                     <span className="ml-3">Paws...for dogs</span>
-                    <FaPhoneSquareAlt className="ml-4 mr-2"/>
-                    <a href="tel:5554280940" style={{color: "#f2f2f2"}}>555-428-0940</a>
+                    <FaPhoneSquareAlt className="ml-4 mr-2 phone-info"/>
+                    <a href="tel:5554280940" style={{color: "#f2f2f2"}} className="phone-info">555-428-0940</a>
                 </Link>
                 {/* toggle button */}
                 <button 
