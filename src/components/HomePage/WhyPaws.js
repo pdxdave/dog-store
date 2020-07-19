@@ -10,7 +10,7 @@ export default function WhyPaws() {
                 <div className="row">
                     <div className="col-10 col-sm-8 mx-auto text-left py-4">
                         <p className="lead text-muted">
-                        Paws...is for dogs. We carry the best food, toys, bedding, accessories, training
+                        <strong>Paws...for dogs</strong>, is just for dogs. We carry the best food, toys, bedding, accessories, training
                         materials and supplies, as well as offer grooming, kenneling and obedience classes.  
                         We also work with local shelters that bring in dogs every second and fourth Saturday 
                         of the month so they can find their furrever home.  Looking for something we didn't mention? 

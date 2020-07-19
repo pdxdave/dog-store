@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import {Link} from 'gatsby'
 import logo from '../../images/white_paw.svg'
 import {FaShoppingCart} from 'react-icons/fa'
+import {FaPhoneSquareAlt} from 'react-icons/fa'
 
 export default class Navbar extends Component {
 
@@ -41,11 +42,13 @@ export default class Navbar extends Component {
 
     render() {
         return (
-            <nav className="navbar navbar-expand-sm bg-dark navbar-dark">
+            <nav className="navbar navbar-expand-lg bg-dark navbar-dark">
                 {/* brand */}
                 <Link to="/" className="navbar-brand">
                     <img src={logo} alt="paws logo" className="paws-logo"/>
-                    <span className="ml-3">Paws...for Dogs</span>
+                    <span className="ml-3">Paws...for dogs</span>
+                    <FaPhoneSquareAlt className="ml-4 mr-2"/>
+                    <a href="tel:5554280940" style={{color: "#f2f2f2"}}>555-428-0940</a>
                 </Link>
                 {/* toggle button */}
                 <button 

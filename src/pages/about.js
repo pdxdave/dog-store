@@ -20,15 +20,15 @@ const About = ({data}) => (
     />
     <section className="">
             <div className="container">
-                <Title title="About Paws...for Dogs"/>
+                <Title title="About Paws...for dogs"/>
                 <div className="row">
                     <div className="col-10 col-sm-8 mx-auto text-left py-4">
                         <p className="lead text-muted">
-                        Paws...for dogs opened its doors in 1994.  The founders, all of them dog fanatics, shared 
+                        <strong>Paws...for dogs</strong>, opened its doors in 1994.  The founders, all of them dog fanatics, shared 
                         a vision to create a unique experience for both dog owners and their dogs.  Yes, we encourage 
                         you to bring in your dog(s) when you stop by! With a lot of hard work and your patronage, we 
-                        believe we've succeded. For instance, Modern Dog magazine for the past ten years has awared 
-                        Paws...for dogs, the "two paws up" award for the best dog store and service provider in the state of Oregon.  We certainly appreciate the wards, but the real reward and measure of our 
+                        believe we've succeded. For instance, <em>Modern Dog</em> magazine for the past ten years has awarded  
+                        <strong> Paws...for dogs</strong>, their "two paws up" award for the best dog store and service provider in the state of Oregon.  We certainly appreciate the awards, but the real reward and measure of our 
                         success is your return visit.  We look forward to many more years of service.
                         </p>
                     </div>
