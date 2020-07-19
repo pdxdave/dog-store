@@ -14,7 +14,3 @@ export default function Hero({img, styleClass, title}) {
     )
 }
 
-// Hero.defaultProps = {
-//     title: "default title",
-//     styleClass: "default-background"
-// }

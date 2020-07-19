@@ -22,11 +22,6 @@ export default class Navbar extends Component {
             },
             {
                 id: 3,
-                path: '/services',
-                desc: 'services'
-            },
-            {
-                id: 4,
                 path: '/contact',
                 desc: 'contact'
             },
@@ -50,6 +45,7 @@ export default class Navbar extends Component {
                     <FaPhoneSquareAlt className="ml-4 mr-2 phone-info"/>
                     <a href="tel:5554280940" style={{color: "#f2f2f2"}} className="phone-info">555-428-0940</a>
                 </Link>
+                
                 {/* toggle button */}
                 <button 
                     className="navbar-toggler"
